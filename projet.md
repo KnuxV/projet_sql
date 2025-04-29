@@ -20,13 +20,13 @@ Si vous vous inspirez d'informations trouvées sur internet, <u>veuillez citer d
 
 Votre projet final doit être composé de trois fichiers :
 
-- **Document de conception** (en PDF ou Markdown) : Un document rigoureux décrivant le but, la portée, les entités, les relations, les optimisations et les limitations de votre base de données. Il doit inclure un diagramme de relation d'entités. Ce document doit expliquer vos choix de conception et comment vous avez équilibré la création et la manipulation de la base de données.
+- **Document de conception** (en PDF ou Markdown) : Un document rigoureux décrivant le but, la portée, les entités, les relations, les optimisations et les limitations de votre base de données. Il doit inclure un diagramme de relation d'entités. Ce document doit expliquer vos choix de conception et comment vous avez équilibré la création et la manipulation de la base de données. Vous ajouterez un diagramme d'entité-relation décrivant vos tables. Vous pouvez l'écrire directement dans le Readme à l'aide de [mermaid](https://mermaid.js.org/syntax/entityRelationshipDiagram.html).
 
 - **Script de schéma** (en SQL ou Python) : Un script annoté des déclarations SQL (`CREATE TABLE`, `CREATE INDEX`, `CREATE VIEW`, etc.) qui composent le schéma de votre base de données. Si vous utilisez une base de données existante, expliquez comment vous l'avez adaptée ou étendue pour répondre à vos besoins spécifiques.
 
 - **Script de requêtes** (en SQL ou Python) : Un script annoté de requêtes SQL (`SELECT`, `INSERT`, `UPDATE`, `DELETE`, etc.) qui vous permet de manipuler la base de données, que ce soit pour modifier des informations ou pour en extraire. Ce script doit démontrer comment utiliser la base de données pour résoudre des problèmes spécifiques.
 
-- **Sources des données** : Fournissez les fichiers CSV utilisés pour peupler votre base de données. Ces fichiers doivent être créés manuellement, générés avec un LLM, ou téléchargés sur internet. Indiquez clairement la provenance de chaque fichier.
+- **Sources des données** : Fournissez les fichiers de données utilisés pour peupler votre base de données (csv, txt, xlsx etc...). Ces fichiers doivent être créés manuellement, générés avec un LLM, ou téléchargés sur internet. Indiquez clairement la provenance de chaque fichier.
 
 ## Considérations supplémentaires
 
@@ -45,5 +45,3 @@ Votre projet final doit être composé de trois fichiers :
 ## Diffusion du travail
 
 - **Dépôt GitHub** : Créez un dépôt GitHub pour votre projet. Ajoutez tous les membres de votre groupe ainsi que moi-même en tant que collaborateurs. Assurez-vous que tous les fichiers nécessaires (document de conception, scripts SQL, fichiers CSV) sont inclus dans le dépôt.
-
-Ce projet est l'aboutissement du cours CS50 SQL, alors efforcez-vous de créer quelque chose dont vous êtes fier !
